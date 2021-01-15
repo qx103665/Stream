@@ -2,7 +2,7 @@ package io;
 
 import java.io.*;
 
-public class Test10 {
+public class mp3List_txt {
     public static void main(String[] args) throws IOException {
         FileWriter fw =new FileWriter("F:\\mp3List.txt");
         File file =new File("F:\\");

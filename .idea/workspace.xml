@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="546885a9-72fd-48bb-9865-30761d00a568" name="Default Changelist" comment="1.字符输入流&#10;2.字符输出流&#10;3.用字节输出流和字节输入流将两首歌曲串烧" />
+    <list default="true" id="546885a9-72fd-48bb-9865-30761d00a568" name="Default Changelist" comment="1.字符输入流&#10;2.字符输出流&#10;3.用字节输出流和字节输入流将两首歌曲串烧">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/Read_and_Write.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/Test01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/Test02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/Test03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/Test06.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/Test07.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/Test09.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/b_cut_mp3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Stream/io/Test10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Stream/io/fileReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Stream/io/fileReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/Test10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/mp3_a_b.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/fileReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/fileReader.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,13 +48,45 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/io" />
   </component>
-  <component name="RunManager" selected="Application.Test10">
-    <configuration name="Test10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.Test10" />
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\qin\Stream\src\io" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.Test" />
+      <module name="Stream" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.Test01" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.Test03" />
+      <module name="Stream" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test07" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.Test07" />
       <module name="Stream" />
       <extension name="coverage">
         <pattern>
@@ -58,17 +105,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="fileWriter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.fileWriter" />
+    <configuration name="mp3_a_b_cut" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.mp3_a_b_cut" />
       <module name="Stream" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test10" />
-        <item itemvalue="Application.fileWriter" />
+        <item itemvalue="Application.mp3_a_b_cut" />
+        <item itemvalue="Application.Test07" />
+        <item itemvalue="Application.Test03" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.fileReader" />
       </list>
     </recent_temporary>
@@ -97,7 +152,9 @@
       <updated>1610608068921</updated>
       <workItem from="1610608075051" duration="7317000" />
       <workItem from="1610626179412" duration="2081000" />
-      <workItem from="1610672429974" duration="1406000" />
+      <workItem from="1610672429974" duration="1714000" />
+      <workItem from="1610677781318" duration="611000" />
+      <workItem from="1610714704300" duration="1390000" />
     </task>
     <task id="LOCAL-00001" summary="1.字符输入流&#10;2.字符输出流&#10;3.用字节输出流和字节输入流将两首歌曲串烧">
       <created>1610626618662</created>
@@ -106,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610626618662</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1.字符输入流&#10;2.字符输出流&#10;3.用字节输出流和字节输入流将两首歌曲串烧">
+      <created>1610677231361</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1610677231361</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,10 +181,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="1.字符输入流&#10;2.字符输出流&#10;3.用字节输出流和字节输入流将两首歌曲串烧" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="524" y="10" key="CommitChangelistDialog2" timestamp="1610677166465">
+    <state x="524" y="6" key="CommitChangelistDialog2" timestamp="1610677792647">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="524" y="10" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1610677166465" />
+    <state x="524" y="6" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1610677792647" />
     <state x="704" y="164" key="FileChooserDialogImpl" timestamp="1610677172260">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -129,26 +193,26 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="768" y="308" width="273" height="220" key="Github.ShareDialog/0.0.1600.860@0.0.1600.860" timestamp="1610677186637" />
-    <state width="1145" height="206" key="GridCell.Tab.0.bottom" timestamp="1610625160672">
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1610716024713">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1145" height="206" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1610625160672" />
-    <state width="1145" height="206" key="GridCell.Tab.0.center" timestamp="1610625160672">
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1610716024713" />
+    <state width="1557" height="222" key="GridCell.Tab.0.center" timestamp="1610716024713">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1145" height="206" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1610625160672" />
-    <state width="1145" height="206" key="GridCell.Tab.0.left" timestamp="1610625160672">
+    <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1610716024713" />
+    <state width="1557" height="222" key="GridCell.Tab.0.left" timestamp="1610716024713">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1145" height="206" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1610625160672" />
-    <state width="1145" height="206" key="GridCell.Tab.0.right" timestamp="1610625160672">
+    <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1610716024713" />
+    <state width="1557" height="222" key="GridCell.Tab.0.right" timestamp="1610716024713">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1145" height="206" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1610625160672" />
-    <state x="475" y="165" key="Vcs.Push.Dialog.v2" timestamp="1610626880432">
+    <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1610716024713" />
+    <state x="475" y="165" key="Vcs.Push.Dialog.v2" timestamp="1610677241908">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="475" y="165" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1610626880432" />
+    <state x="475" y="165" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1610677241908" />
     <state x="480" y="253" key="com.intellij.ide.util.TipDialog" timestamp="1610626365041">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
